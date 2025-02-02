@@ -38,6 +38,8 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["BUKKUZ💖TINA", "BUKKUZ ARMY"];
+activityName: "YouTube Music", 
+activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
